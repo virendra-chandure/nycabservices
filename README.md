@@ -1,6 +1,6 @@
 ## Introduction:
-API should provide a way to query how many trips a particular cab (medallion) has made given a particular pickup date.
-The API must receive one or more medallions as input and return how many trips each medallion has made in given pickup date.
+API provides a way to query how many trips a particular cab (medallion) has made given pickup date.
+The API receives one or more medallions as input and return number of trips each medallion has made in given pickup date.
 
 
 ## Build Instructions:
