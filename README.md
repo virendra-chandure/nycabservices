@@ -4,10 +4,10 @@ The API receives one or more medallions as input and return number of trips each
 
 
 ## Build Instructions:
-1. Extract/checkout project from repository
-2. Update database url in application.yml by replacing hostname, port and database_name in url as: 		jdbc:mysql://[hostname]:[port]/[database_name]
-3. Update username/password in application.yml, make sure that this user has "SELECT" privilege for above database
-4. Goto home folder and build the project using command: 'mvn clean spring-boot:run' from the command prompt or IDE. It will build and start the application ready to accept requests from client
+1. Extract/checkout project from repository in any folder having full access to logged in user.
+2. To change the database configuration, go to extracted folder and open file "src/main/resources/application.yml" where database url can be updated by replacing hostname, port and database_name in given url as: 		jdbc:mysql://[hostname]:[port]/[database_name]
+3. Also update username/password in application.yml, make sure that this user has "SELECT" privilege for above database.
+4. To build/run the application, go to extracted folder and execute command: "mvn clean spring-boot:run" from the command prompt. It will build and start the application ready to accept requests from client.
    Alternatively, Application.java file can be run from IDE once maven build is successful.
 
 ## References:
